@@ -51,7 +51,7 @@ The tool is divided into two main functions:
 1. `extract_audio_from_video(video_path, audio_path)`: Extracts audio from the provided video file.
 2. `extract_text_from_audio(audio_file_path)`: Transcribes the audio into text.
 
-## Examples
+## how to use 
 To transcribe a video, run the script as follows:
 ```python
 video_path = 'path_to_your_video.mkv'
@@ -63,6 +63,7 @@ transcript = extract_text_from_audio(audio_path)
 ## Troubleshooting
 - Ensure all dependencies are installed.
 - Check if the `.env` file is correctly configured.
+ - it requires open_ai_API_KEY= 'Your-OpenAI-API-Key' in .env file
 - Make sure the video and audio paths are correct.
 
 ## Contributors
